@@ -1,10 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  width: 98%;
+  margin: 10px auto;
+  text-align: left;
+}
+
+a:link {
+  text-decoration: none;
+  color: DarkBlue
+}
+
+a:visited {
+  color: BlueViolet;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 body {
   color: #000000;
   background-color: #EEEEEE;   /* Light gray */
   font-family: "Helvetica", "Arial", sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: DarkBlue
 }
